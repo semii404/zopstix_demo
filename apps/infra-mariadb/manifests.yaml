@@ -331,7 +331,7 @@ metadata:
     helm.sh/chart: mariadb-galera-14.0.10
 spec:
   podManagementPolicy: OrderedReady
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app.kubernetes.io/instance: mariadb-bootstrap
